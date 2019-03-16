@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Lab1</title>
+    <style type="text/css">
+        body{
+            position: absolute;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        #left{
+            width: 73%;
+            height: inherit;
+            background: #FC9E70;
+            display: inline-block;
+        }
+        #right{
+            width: 26%;
+            height: inherit;
+            border-left: 10px solid #ffffff;
+            float: right;
+        }
+        #right_up{
+            height: 49%;
+            border-bottom: 10px solid #ffffff;
+            background: #BC5E1E;
+        }
+        #right_down{
+            height: 49.5%;
+            background: #A34402;
+        }
+        #square{
+            width: 170px;
+            height: 170px;
+            background: #FC7F3F;
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<div id="square"></div>
+<div id="left"></div>
+<div id="right">
+    <div id="right_up"></div>
+    <div id="right_down"></div>
+</div>
+</body>
+</html>

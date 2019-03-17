@@ -11,28 +11,28 @@
             height: 100%;
             width: 100%;
         }
-        #left{
+        .left{
             width: 73%;
             height: inherit;
             background: #FC9E70;
             display: inline-block;
         }
-        #right{
+        .right{
             width: 26%;
             height: inherit;
             border-left: 10px solid #ffffff;
             float: right;
         }
-        #right_up{
+        .right_up{
             height: 49%;
             border-bottom: 10px solid #ffffff;
             background: #BC5E1E;
         }
-        #right_down{
+        .right_down{
             height: 49.5%;
             background: #A34402;
         }
-        #square{
+        .square{
             width: 170px;
             height: 170px;
             background: #FC7F3F;
@@ -43,55 +43,55 @@
             margin-left: 50px;
         }
         @media screen and (max-width: 1100px){
-            #left{
+            .left{
                 width: 100%;
                 height: 65%;
                 display: block;
             }
-            #right{
+            .right{
                 width: 100%;
                 height: 35%;
                 border-left: unset;
                 border-top: 10px solid #ffffff;
             }
-            #right_up{
+            .right_up{
                 width: 49.5%;
                 height: 100%;
                 border-bottom: unset;
                 /*border-right: 4px solid #ffffff;*/
                 display: inline-block;
             }
-            #right_down{
+            .right_down{
                 width: 49.5%;
                 height: 100%;
                 float: right;
             }
         }
         @media screen and (max-width: 768px){
-            #square{
+            .square{
                 width: 100%;
                 height: 7%;
                 border-bottom: 10px solid #ffffff;
                 position: unset;
                 margin: unset;
             }
-            #left{
+            .left{
                 width: 100%;
                 height: 75%;
                 display: block;
             }
-            #right{
+            .right{
                 width: 100%;
                 height: 25%;
                 border-left: unset;
                 border-top: 10px solid #ffffff;
             }
-            #right_up{
+            .right_up{
                 width: 100%;
                 height: 47%;
                 border-bottom: 10px solid #ffffff;
             }
-            #right_down{
+            .right_down{
                 width: 100%;
                 height: 47%;
             }
@@ -99,11 +99,11 @@
     </style>
 </head>
 <body>
-<div id="square"></div>
-<div id="left"></div>
-<div id="right">
-    <div id="right_up"></div>
-    <div id="right_down"></div>
+<div class="square"></div>
+<div class="left"></div>
+<div class="right">
+    <div class="right_up"></div>
+    <div class="right_down"></div>
 </div>
 </body>
 </html>
